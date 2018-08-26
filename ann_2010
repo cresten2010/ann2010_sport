@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>SPORT AGENT</h1>
+  <p>PHYSICAL ACTIVITY AND MENTAL HEALTH.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">HOME </a>
+  <a href="#">DOWNLOAD</a>
+  <a href="#">GALERIES</a>
+  <a href="#" style="float:right">CONTACT</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>STREET SPORT</h2>
+      <h5>LIFE IN MOTION JOIN US AUGUST 26,2018</h5>
+      <img src=https://www.thehiveyouthzone.org/wp-content/uploads/2018/02/sport.png
+      
+      <pA>A sport is commonly defined as an athletic activity or skill and involves a degree of competition, such as tennis or basketball. ... Sports can be played indoors or outdoors and by individuals or teams.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 
+>Welcome to Sport About, your #1 Source for quality sports equipment.
+
+Welcome to the Sport About Equipment Website.  Since 1981 we have offered products and services to the Monterey Bay Area.  Our focus has been and will continue to be, offering quality customer service and products from the sporting goods industry's leading manufacturers at very competitive prices.  The growth we have experienced over the years has developed through our association with schools, institutional accounts, camps and youth sports organizations.  This online store is the next step to allow our products and customer service to be reached by customers outside of the Monterey Bay Area.  Please enjoy our website and don't hesitate to drop us a line. 
+</h2>
+      <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtUZrVXS-ctTiI2l6mUrAl1lzydMuPI-tSR0JZb_JryN8CDKFztw
+      <p>Baseball/Softball,Basketball,Football,Soccer,Physical Education,Scoreboards,Coaching Products,AgilityTraining,Field & Gym Markers.</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <img src=http://www.leadthrusport.ca/wp-content/uploads/2014/06/LTS_Carm-and-Tash-sharper-300x199.jpg
+      
+    </div>
+  </div>
+</div>
+
+<div class=About us
+ 
+Offices
+Careers
+ 
+Privacy
+Meet us
+ 
+Press
+<To top 
+Stay in the know
+Subscribe to our newsletter
+
+ 
+ 
+ 
+>
+  <h2>About us
+ 
+Offices
+Careers
+ 
+Privacy
+Meet us
